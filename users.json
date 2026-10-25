@@ -1,0 +1,9 @@
+[
+  {
+    "id": "admin",
+    "name": "Quản trị viên",
+    "email": "admin@techzone.vn",
+    "password": "9f870f8af2fb621f07a5737001fb883f:3bca03c3a85ef6367dbda343315a344991f7abb67783c9ef13fe16a1dfbe3fbd",
+    "role": "admin"
+  }
+]
