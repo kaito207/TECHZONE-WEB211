@@ -1,1 +1,46 @@
-<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Đăng nhập - TECHZONE</title><link rel="stylesheet" href="css/style.css"></head><body data-page="account"><header id="header"></header><main class="wrap section" style="min-height:65vh"><div class="card" style="max-width:520px;margin:auto"><h1>Tài khoản của tôi</h1><p><b>Họ tên:</b> <span id="accountName"></span></p><p><b>Email:</b> <span id="accountEmail"></span></p><h2>Đổi mật khẩu</h2><form id="passwordForm" class="stack"><label>Mật khẩu hiện tại<input name="oldPassword" type="password" required></label><label>Mật khẩu mới (ít nhất 8 ký tự)<input name="newPassword" type="password" minlength="8" required></label><label>Xác nhận mật khẩu mới<input name="confirmPassword" type="password" minlength="8" required></label><button class="btn">Lưu mật khẩu mới</button></form></div></main><footer id="footer" class="footer"></footer><script src="js/app.js"></script></body></html>
+
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tài khoản của tôi - TECHZONE</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body data-page="account">
+  <header id="header"></header>
+
+  <main class="wrap section" style="min-height:65vh">
+    <div class="card" style="max-width:520px;margin:auto">
+      <h1>Tài khoản của tôi</h1>
+
+      <p><b>Họ tên:</b> <span id="accountName"></span></p>
+      <p><b>Email:</b> <span id="accountEmail"></span></p>
+
+      <h2>Đổi mật khẩu</h2>
+
+      <form id="passwordForm" class="stack">
+        <label>
+          Mật khẩu hiện tại
+          <input name="oldPassword" type="password" required>
+        </label>
+
+        <label>
+          Mật khẩu mới (ít nhất 8 ký tự)
+          <input name="newPassword" type="password" minlength="8" required>
+        </label>
+
+        <label>
+          Xác nhận mật khẩu mới
+          <input name="confirmPassword" type="password" minlength="8" required>
+        </label>
+
+        <button class="btn" type="submit">Lưu mật khẩu mới</button>
+      </form>
+    </div>
+  </main>
+
+  <footer id="footer" class="footer"></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
